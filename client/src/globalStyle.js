@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components"
 export const GlobalStyle = createGlobalStyle`
   body {
     height: 100vh;
-    max-height: 100vh
+    max-height: 100vh;
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;

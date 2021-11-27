@@ -18,7 +18,7 @@ const Header = () => {
         content={"Balldontlie"}
         type={"h1"}
         alignment={"center"}
-        color={"#E47041"}
+        color={"#F79334"}
       ></Heading>
       <Toggle />
     </StyledHeader>
