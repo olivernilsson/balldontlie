@@ -1,8 +1,7 @@
-import Switch from "react-switch"
 import { Sun, Moon } from "react-feather"
 import store from "../../store"
 import { useState } from "react"
-import { StyledSwitchContainer } from "./style"
+import { StyledSwitchContainer, StyledSwitch } from "./style"
 
 const Toggle = (props) => {
   const [state, setState] = useState(store.getState())
@@ -20,7 +19,7 @@ const Toggle = (props) => {
 
   return (
     <StyledSwitchContainer>
-      <Switch
+      <StyledSwitch
         onChange={handleChange}
         checked={state.options.darkMode}
         uncheckedIcon={
